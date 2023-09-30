@@ -135,19 +135,82 @@ main {
   font-family: Open Sans;
   font-size: 18px;
   color: var(--Dark-03, #757575);
-
 }
-.about-info-container{
+.about-info-container {
   display: flex;
-  justify-content: space-around ;
+  justify-content: space-around;
   margin-top: 30px;
 }
-.about .info-title{
+.about .info-title {
   font-weight: 400;
   font-size: 20px;
 }
 
-.about .info-description{
+.about .info-description {
   font-size: 20px;
   font-weight: 700;
+}
+/* what i do styles */
+.what-i-do {
+  margin-top: 130px;
+  color: var(--Dark-01, #181818);
+  font-weight: 700;
+  font-size: 35px;
+}
+.what-i-do-section-description {
+  width: 909px;
+  height: 90px;
+  font-weight: 400;
+  font-family: Open Sans;
+  font-size: 18px;
+  color: var(--Dark-03, #757575);
+  margin: 0 auto;
+}
+
+/* skill styles */
+.skill-container {
+  display: flex;
+}
+.skill-img {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.skill {
+  width: 267px;
+  height: 377px;
+}
+.skill-title {
+  width: 174px;
+  height: 27px;
+  margin-bottom: 20px;
+  color: var(--Dark-01, #181818);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 30px;
+}
+.skill-description {
+  width: 201px;
+  height: 196px;
+  color: var(--Dark-03, #757575);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 33px;
+  margin-right: 33px;
+  margin-bottom: 30px;
+}
+.skill {
+  width: 267px;
+  height: 377px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  /* justify-content: space-between; */
+  margin-right: 24px;
 }
