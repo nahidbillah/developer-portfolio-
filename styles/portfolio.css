@@ -211,6 +211,44 @@ main {
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-  /* justify-content: space-between; */
   margin-right: 24px;
+}
+
+/* resume styles */
+.resume-content {
+  display: flex;
+}
+.resume-title {
+  color: var(--Dark-02, #474747);
+  font-family: Open Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.section-title {
+  margin-top: 130px;
+  margin-bottom: 113px;
+}
+.education-title{
+  margin-bottom: 10px;
+}
+.education-subtitle{
+  margin-bottom: 30px;
+  margin-right: 273px;
+}
+.education-description{
+  margin-bottom: 60px;
+  margin-right: 71px;
+}
+
+.experience-title{
+  margin-bottom: 10px ;
+}
+.experience-subtitle{
+  margin-bottom: 30px;
+}
+.experience-description{
+  margin-bottom: 60px;
+  margin-right: 71px;
 }
